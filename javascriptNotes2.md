@@ -61,7 +61,7 @@ Used for boolean (true/false) logic.
 | Operator | Description | Example | Result |
 |----------|-------------|---------|--------|
 | `&&` | AND → true if both are true | `(5 > 3 && 10 > 5)` | `true` |
-| `|/|/` | OR → true if at least one is true | `(5 > 10 || 10 > 5)` | `true` |
+| `\|\|` | OR → true if at least one is true | `(5 > 10 \|\| 10 > 5)` | `true` |
 | `!` | NOT → reverses result | `!(5 > 3)` | `false` |
 
 ---
@@ -72,7 +72,7 @@ Work on numbers at the binary level.
 | Operator | Description | Example | Result |
 |----------|-------------|---------|--------|
 | `&`  | AND | `5 & 1` → `0101 & 0001` | `1` |
-| `|/`  | OR | `5 | 1` → `0101 | 0001` | `5` |
+| `\|`  | OR | `5 | 1` → `0101 | 0001` | `5` |
 | `^`  | XOR | `5 ^ 1` → `0101 ^ 0001` | `4` |
 | `~`  | NOT | `~5` → inverts bits | `-6` |
 | `<<` | Left shift | `5 << 1` → `10` |
